@@ -5,8 +5,8 @@ import { Instagram, MessageCircleIcon } from "lucide-react";
 
 export function Navbar() {
     return (
-        <header className="max-w-[1440px] mx-auto p-8 lg:p-0">
-            <nav className="hidden lg:flex items-center justify-around -mt-10">
+        <header className="max-w-[1440px] mx-auto p-8 lg:p-0 z-50">
+            <nav className="hidden xl:flex items-center justify-around -mt-10">
                 <figure className="mt-16">
                     <Image src="/LogoPrimary.svg" width={250} height={100} alt="" />
                 </figure>
@@ -56,7 +56,7 @@ export function Navbar() {
                  </Link>
                 </div>
             </nav>
-            <div className="mt-4">
+            <div className="mt-4 flex xl:hidden">
                 <NavbarMobile />
             </div>
         </header>
