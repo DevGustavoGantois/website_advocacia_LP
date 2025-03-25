@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Montserrat, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import { Footer } from "./global/footer";
+import { Navbar } from "./global/navbar";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -29,7 +31,9 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} ${playFairDisplay.variable} antialiased bg-gradient-to-r from-[#F5F5F5] to-[#F2EEEB]`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
