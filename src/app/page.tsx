@@ -17,7 +17,6 @@ export default function Page() {
     <HomeTestimonials />
     <HomeArticles />
     <HomeContact />
-    <div className="h-[3000px]"></div>
     </>
   );
 }

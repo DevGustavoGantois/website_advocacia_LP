@@ -124,3 +124,7 @@
 .font-primary {
   font-family: var(--font-playfair-display), serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
