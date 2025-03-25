@@ -8,15 +8,13 @@ export function HomeHero() {
   return (
     <section className="w-full z-10">
       <div className="hidden md:flex">
-        {" "}
-        {/*TODO qualquer coisa eu mudo pra lg:flex em vez de md:flex*/}
         <figure className="absolute inset-0 -z-50">
           <Image src="/BgHome.svg" width={1840} height={1440} alt="" />
         </figure>
       </div>
       <div className="flex md:hidden">
         <div
-          className="absolute flex flex-col items-center justify-center w-full h-[950px] lg:h-[1170px] -z-50 -top-64 bg-[left-70%] lg:bg-[center]"
+          className="absolute flex flex-col items-center justify-center w-full h-[900px] lg:h-[1170px] -z-50 -top-64 rounded-b-3xl lg:rounded-none bg-[left-70%] lg:bg-[center]"
           style={{
             backgroundImage: "url(/BgHome.svg)",
             backgroundSize: "cover",
