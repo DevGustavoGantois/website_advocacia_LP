@@ -25,13 +25,13 @@ export function HomeContact() {
                              <Image className="w-full h-full -z-10" src={item.imgBg} width={300} height={400} alt="" />
                             </div>
                             <div className="px-12 py-2 bg-gradient-to-r from-[#E3E3E3] to-[#FFFF] rounded-md">
-                                <article className="flex flex-col gap-2 items-start justify-center">
+                                <article className="flex flex-col gap-2 items-center lg:items-start justify-center">
                                  <figure className="flex items-center gap-1">
                                     <Users size={24} className="text-yellow-500" />
                                     <p className="bg-clip-text text-transparent bg-gradient-to-r from-[#F1D67D] to-[#D18400] font-primary text-start">{item.pretitle}</p>
                                  </figure>
-                                 <h1 className="text-xl font-primary text-start">{item.title}</h1>
-                                 <p className="font-light max-w-[300px]">{item.description_two}</p>
+                                 <h1 className="text-xl font-primary text-center lg:text-start">{item.title}</h1>
+                                 <p className="font-light max-w-[300px] text-center lg:text-start">{item.description_two}</p>
                                  <Button className="font-primary font-normal">
                                     <Link href="" target="_blank">
                                      {item.btnText}
