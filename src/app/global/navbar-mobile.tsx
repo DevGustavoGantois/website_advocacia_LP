@@ -10,7 +10,7 @@ export function NavbarMobile() {
             <div className="flex items-center justify-between px-4 py-6 backdrop-blur-3xl border-b border-white/20">
                 <Sheet>
                     <SheetTrigger>
-                        <Menu className="text-white cursor-pointer" size={30} />
+                        <Menu className="text-[#9E7A5F] cursor-pointer" size={30} />
                     </SheetTrigger>
                     <SheetContent side="left" className="bg-gradient-to-b from-[#9E7A5F] to-[#563F2E] text-white flex flex-col items-center py-10">
                         <DialogTitle className="mb-6">

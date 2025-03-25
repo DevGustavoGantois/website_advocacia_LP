@@ -9,7 +9,7 @@ export function HomeHero() {
     <section className="w-full z-10">
       <div className="hidden md:flex">
         <figure className="absolute inset-0 -z-50">
-          <Image src="/BgHome.svg" width={1840} height={1440} alt="" />
+          <Image src="/BgHome.svg" width={2560} height={1440} alt="" />
         </figure>
       </div>
       <div className="flex md:hidden">
