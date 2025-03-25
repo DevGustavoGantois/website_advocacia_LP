@@ -10,6 +10,7 @@ export const heroData = [
 
 export const aboutMeData = [
     {
+        img: "/ImgAboutMe.svg",
         pretitle: "Sobre mim",
         title: "Advogada comprometida com a justiça e com o sucesso do seu caso",
         description: "Ofereço assessoria jurídica especializada, com ética, transparência e dedicação para proteger seus direitos e alcançar as melhores soluções para o seu caso.",
