@@ -113,7 +113,6 @@ export const contactData = [
     {
         imgBg: "/ImgBgContact.svg",
         description_one: "Receba suporte diretamente pelo seu whatsapp",
-        img: "/LogoPrimary.svg",
         pretitle: "Suporte rápido",
         title: "Precisa de ajuda?",
         description_two: "Nossa equipe está pronta para conversar com você!",

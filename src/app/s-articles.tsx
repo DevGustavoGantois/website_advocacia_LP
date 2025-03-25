@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function HomeArticles() {
     return (
-        <section id="articles" className="max-w-[1440px] mx-auto p-8 lg:p-0 mt-20 lg:mt-40 relative">
+        <section id="articles" className="max-w-[1240px] mx-auto p-8 lg:p-0 mt-20 lg:mt-40 relative">
             {articleData.map((item, index) => (
                 <div key={index} className="relative bg-gradient-to-r from-[#9E7A5F] to-[#563F2E] w-full h-full flex items-center justify-center overflow-hidden rounded-xl p-6 lg:p-20">
                     <Image 
