@@ -1,7 +1,7 @@
 export const heroData = [
     {
         pretitle: "Sua Parceira Legal de Confiança",
-        title: "Defendendo Seus Direitos, Garantindo Sua Justiça",
+        title: "Defendemos seus direitos com compromisso e excelência",
         description: "Especialistas em soluções jurídicas personalizadas, comprometidos com sua confiança e segurança em cada etapa do processo.",
         btnText: "Saiba mais",
 

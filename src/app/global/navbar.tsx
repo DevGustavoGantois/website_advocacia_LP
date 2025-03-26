@@ -56,7 +56,7 @@ export function Navbar() {
                  </Link>
                 </div>
             </nav>
-            <div className="mt-4 flex xl:hidden">
+            <div className="mt-4 flex lg:hidden">
                 <NavbarMobile />
             </div>
         </header>

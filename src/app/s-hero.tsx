@@ -9,7 +9,7 @@ export function HomeHero() {
     <section className="w-full z-10">
       <div className="hidden md:flex">
         <figure className="absolute inset-0 -z-50">
-          <Image src="/BgHome.svg" width={2560} height={1440} alt="" />
+          <Image src="/BgHome.svg" width={2560} height={1240} alt="" />
         </figure>
       </div>
       <div className="flex md:hidden">
@@ -30,7 +30,7 @@ export function HomeHero() {
                 <h4 className="font-primary bg-clip-text text-transparent bg-gradient-to-r from-[#F1D67D] to-[#D18400] text-sm text-center lg:text-start lg:text-base">
                   {item.pretitle}
                 </h4>
-                <h1 className="text-white text-4xl lg:text-6xl max-w-[732px] text-center lg:text-start font-primary">
+                <h1 className="text-white text-4xl lg:text-6xl max-w-[830px] text-center lg:text-start font-primary">
                   {item.title}
                 </h1>
                 <p className="text-gray-400 max-w-[656px] text-center lg:text-start">
