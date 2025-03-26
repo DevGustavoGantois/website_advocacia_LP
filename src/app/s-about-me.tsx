@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function HomeAboutMe() {
     return (
-        <section id="about" className="max-w-[1440px] mx-auto p-8 lg:p-0 mt-16 lg:mt-[500px]">
+        <section id="about" className="max-w-[1440px] mx-auto p-8 lg:p-0 mt-40 lg:mt-[500px]">
             <div>
                {aboutMeData.map((item, index) => {
                 return (
