@@ -5,7 +5,7 @@ export function HomeServices() {
   return (
     <section id="services" className="relative mt-20 lg:mt-40">
     <div className="flex flex-col gap-2 items-center justify-start mb-10">
-     <h4 className="text-[#9E7A5F] text-center text-sm lg:text-base">Serviços</h4>
+     <h4 className="text-[#9E7A5F] text-center font-primary text-sm lg:text-base">Serviços</h4>
      <h1 className="font-primary text-center text-black text-4xl lg:text-6xl max-w-[890px]">Áreas de Atuação nas Quais Somos Especialistas para Te Auxiliar!</h1>
     </div>
       {servicesData[0]?.img && ( 
