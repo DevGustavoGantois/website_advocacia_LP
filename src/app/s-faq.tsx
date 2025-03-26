@@ -13,8 +13,8 @@ export function HomeFAQ() {
                 <div className="max-w-[1440px] mx-auto p-0 lg:p-8">
                     <div className="flex flex-col items-center gap-8 lg:flex-row justify-center lg:justify-between">
                         <article className="flex flex-col gap-2 items-center mt-10 lg:mt-32">
-                            <h4 className="text-sm lg:text-base font-primary text-[#9E7A5F]">FAQ</h4>
-                            <h1 className="text-center font-primary text-black text-4xl lg:text-6xl">Perguntas Frequentes</h1>
+                            <h4 className="text-sm lg:text-base font-primary text-[#9E7A5F]" data-aos="fade-up">FAQ</h4>
+                            <h1 className="text-center font-primary text-black text-4xl lg:text-6xl" data-aos="fade-up" data-aos-delay="200">Perguntas Frequentes</h1>
                             <div className="mt-10">
                                 {faqData.map((item, index) => {
                                     return (
@@ -33,7 +33,7 @@ export function HomeFAQ() {
                             </div>
                         </article>
                         <figure className="mt-10 lg:mt-32 w-full max-w-[500px]">
-                            <div className="relative p-6 pt-32 pb-32 bg-gradient-to-b from-[#9E7A5F] to-[#563F2E] rounded-md">
+                            <div className="relative p-6 pt-32 pb-32 bg-gradient-to-b from-[#9E7A5F] to-[#563F2E] rounded-md" data-aos="fade-down">
                                 <ul className="flex flex-col gap-10 items-start">
                                     <div className="flex flex-col lg:flex-row justify-center items-center gap-6 z-50">
                                         <Scale size={32} className="text-white" />

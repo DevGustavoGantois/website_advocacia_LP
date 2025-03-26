@@ -17,8 +17,8 @@ export function HomeArticles() {
                     />
                     <div className="absolute inset-0" />
                     <div className="relative z-10 text-center text-white px-6 mt-10">
-                        <h1 className="text-4xl lg:text-6xl font-primary">{item.title}</h1>
-                        <p className="text-white/80 max-w-[662px] mx-auto mt-4">{item.description}</p>
+                        <h1 className="text-4xl lg:text-6xl font-primary" data-aos="fade-down">{item.title}</h1>
+                        <p className="text-white/80 max-w-[662px] mx-auto mt-4" data-aos="fade-down" data-aos-delay="200">{item.description}</p>
                         <Button variant="secondary" className="mt-6 font-primary">
                             <Link href="https://milaoliver94.jusbrasil.com.br/" target="_blank">
                                 {item.btnText}

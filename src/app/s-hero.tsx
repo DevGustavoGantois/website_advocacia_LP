@@ -27,13 +27,13 @@ export function HomeHero() {
           return (
             <div key={index} className="p-4 md:p-12">
               <article className="flex flex-col gap-2 items-center justify-center lg:items-start">
-                <h4 className="font-primary bg-clip-text text-transparent bg-gradient-to-r from-[#F1D67D] to-[#D18400] text-sm text-center lg:text-start lg:text-base mt-16 xl:mt-0">
+                <h4 data-aos="fade-down" className="font-primary bg-clip-text text-transparent bg-gradient-to-r from-[#F1D67D] to-[#D18400] text-sm text-center lg:text-start lg:text-base mt-16 xl:mt-0">
                   {item.pretitle}
                 </h4>
-                <h1 className="text-white text-[32px] lg:text-6xl p-2 lg:p-0 max-w-[550px] md:max-w-[830px] text-center lg:text-start font-primary">
+                <h1 data-aos="fade-down" data-aos-delay="200" className="text-white text-[32px] lg:text-6xl p-2 lg:p-0 max-w-[550px] md:max-w-[830px] text-center lg:text-start font-primary">
                   {item.title}
                 </h1>
-                <p className="text-gray-400 max-w-[656px] text-center lg:text-start">
+                <p data-aos="fade-down" data-aos-delay="300" className="text-gray-400 max-w-[656px] text-center lg:text-start">
                   {item.description}
                 </p>
                 <Button className="font-primary mt-2 flex items-center gap-3 px-6 py-5 bg-gradient-to-r from-[#9E7A5F] to-[#563F2E] text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">

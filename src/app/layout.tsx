@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${montserrat.variable} ${playFairDisplay.variable} antialiased bg-gradient-to-r from-[#F5F5F5] to-[#F2EEEB]`}
+        className={`${montserrat.variable} ${playFairDisplay.variable} antialiased bg-gradient-to-r from-[#F5F5F5] to-[#F2EEEB] overflow-x-hidden`}
       >
         <Navbar />
         {children}

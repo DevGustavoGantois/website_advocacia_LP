@@ -14,10 +14,10 @@ export function HomeAboutMe() {
                             <Image src={item.img} width={500} height={800} alt="" />
                         </figure>
                         <article className="flex flex-col gap-4 justify-center items-start">
-                            <h4 className="text-[#9E7A5F] text-sm lg:text-base font-primary">{item.pretitle}</h4>
-                            <h1 className="text-4xl font-primary lg:text-6xl max-w-[750px] text-start text-black">{item.title}</h1>
-                            <div className="w-1/5 border-3 border-[#9E7A5F] mb-3 mt-3 rounded-full" />
-                            <p className="text-gray-500 max-w-[603px] text-sm lg:text-base">{item.description}</p>
+                            <h4 className="text-[#9E7A5F] text-sm lg:text-base font-primary" data-aos="fade-up">{item.pretitle}</h4>
+                            <h1 className="text-4xl font-primary lg:text-6xl max-w-[750px] text-start text-black" data-aos="fade-up" data-aos-delay="200">{item.title}</h1>
+                            <div data-aos="fade-up" className="w-1/5 border-3 border-[#9E7A5F] mb-3 mt-3 rounded-full" />
+                            <p className="text-gray-500 max-w-[603px] text-sm lg:text-base" data-aos="fade-up" data-aos-delay="300">{item.description}</p>
                             <Button className="font-primary font-normal p-6">
                                 <Link href="#contact">
                                 {item.btnText}
