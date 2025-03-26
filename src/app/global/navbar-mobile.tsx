@@ -20,7 +20,7 @@ export function NavbarMobile() {
                             {[
                                 { href: "#home", label: "Home" },
                                 { href: "#about", label: "Sobre mim" },
-                                { href: "#atuation", label: "Áreas de atuação" },
+                                { href: "#services", label: "Áreas de atuação" },
                                 { href: "#faq", label: "Perguntas Frequentes" },
                                 { href: "#testimonials", label: "Depoimentos" },
                                 { href: "#articles", label: "Artigos" },

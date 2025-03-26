@@ -44,7 +44,7 @@ export function Footer() {
                             </Link>
                         </li>
                         <li className="text-white transition-all text-sm lg:text-base duration-700 hover:-translate-y-2">
-                            <Link href="#atuation">
+                            <Link href="#services">
                             Áreas de Atuação
                             </Link>
                         </li>
