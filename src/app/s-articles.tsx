@@ -20,7 +20,7 @@ export function HomeArticles() {
                         <h1 className="text-4xl lg:text-6xl font-primary">{item.title}</h1>
                         <p className="text-white/80 max-w-[662px] mx-auto mt-4">{item.description}</p>
                         <Button variant="secondary" className="mt-6 font-primary">
-                            <Link href="" target="_blank">
+                            <Link href="https://milaoliver94.jusbrasil.com.br/" target="_blank">
                                 {item.btnText}
                             </Link>
                         </Button>

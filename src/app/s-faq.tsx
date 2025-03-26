@@ -22,7 +22,7 @@ export function HomeFAQ() {
                                             <Accordion type="single" collapsible>
                                                 <AccordionItem value={String(0)}>
                                                     <AccordionTrigger className="font-primary">{item.question}</AccordionTrigger>
-                                                    <AccordionContent>
+                                                    <AccordionContent className="max-w-[500px] text-black/70">
                                                         {item.answer}
                                                     </AccordionContent>
                                                 </AccordionItem>

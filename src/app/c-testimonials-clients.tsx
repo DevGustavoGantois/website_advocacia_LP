@@ -21,7 +21,7 @@ export function TestimonialsClients() {
                 className='my-10'
             >
                 {testimonialsData.map((item, index) => (
-                    <SwiperSlide key={index} className='relative rounded-md bg-gradient-to-b from-[#E3E3E3] to-[#FFFF] p-6 lg:p-12'>
+                    <SwiperSlide key={index} className='relative w-full h-full rounded-md bg-gradient-to-b from-[#E3E3E3] to-[#FFFF] p-6 lg:p-22'>
                         <div className='flex flex-col justify-center items-center gap-6'>
                             <p className='text-center text-sm lg:text-base text-gray-500 max-w-[263px]'>
                                 {item.quote}
@@ -30,7 +30,7 @@ export function TestimonialsClients() {
                                 {item.client}
                             </h1>
                         </div>
-                        <div className='absolute top-[192px] lg:top-[260px] overflow-hidden left-0 right-0'>
+                        <div className='absolute bottom-0 overflow-hidden left-0 right-0'>
                             <div className='w-full h-2 bg-gradient-to-r from-[#F1D67D] to-[#D18400]' />
                         </div>
                     </SwiperSlide>
