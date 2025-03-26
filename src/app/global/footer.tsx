@@ -1,4 +1,4 @@
-import { Instagram, MessageCircleIcon } from "lucide-react";
+import { Instagram, Mail, MessageCircleIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -74,18 +74,21 @@ export function Footer() {
                 <div className="flex items-center justify-center flex-col">
                     <h1 className="text-white font-primary text-4xl mb-4">Social</h1>
                     <div className="flex items-center gap-2">
-                        <Link className="text-white transition-all duration-700 hover:scale-[1.1]" href="" target="_blank">
+                        <Link className="text-white transition-all duration-700 hover:scale-[1.1]" href="https://www.instagram.com/adv_milaoliver/" target="_blank">
                         <Instagram size={20} />
                         </Link>
-                        <Link className="text-white transition-all duration-700 hover:scale-[1.1]" href="" target="_blank">
+                        <Link className="text-white transition-all duration-700 hover:scale-[1.1]" href="https://wa.me/5571997079191" target="_blank">
                         <MessageCircleIcon size={20} />
                         </Link>
+                        <a className="text-white transition-all duration-700 hover:scale-[1.1]" href="mailto:milaoliver.adv@gmail.com">
+                            <Mail size={20} />
+                        </a>
                     </div>
                 </div>
             </div>
             <div className="flex flex-col gap-4 lg:flex-row items-center justify-between border-t-1 border-white w-full mt-6">
               <p className="text-white font-light text-center lg:text-start text-sm lg:text-base -mb-6 mt-6">@2025 Todos os Diretos Reservados. Camila Oliveira Advocacia</p>
-              <Link className="text-white font-light text-sm lg:text-base -mb-6 mt-6" href="" target="_blank">
+              <Link className="text-white font-light text-sm lg:text-base -mb-6 mt-6" href="https://www.instagram.com/devgustavogantois_/" target="_blank">
               desenvolvido por @devgustavogantois_
               </Link>
             </div>

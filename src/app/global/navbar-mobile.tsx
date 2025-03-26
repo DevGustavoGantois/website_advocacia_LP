@@ -32,10 +32,10 @@ export function NavbarMobile() {
                             ))}
                         </ul>
                         <span className="flex items-center gap-6 mt-6">
-                            <Link href="" target="_blank">
+                            <Link href="https://www.instagram.com/adv_milaoliver/" target="_blank">
                                 <Instagram size={24} className="hover:scale-110 transition-all duration-300" />
                             </Link>
-                            <Link href="" target="_blank">
+                            <Link href="https://wa.me/5571997079191" target="_blank">
                                 <MessageCircle size={24} className="hover:scale-110 transition-all duration-300" />
                             </Link>
                         </span>

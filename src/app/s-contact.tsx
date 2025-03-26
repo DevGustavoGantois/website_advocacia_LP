@@ -14,7 +14,7 @@ export function HomeContact() {
                             <div className="p-9 bg-gradient-to-b from-[#E3E3E3] to-[#FFFF] rounded-md">
                                 <div className="flex justify-center items-center flex-col gap-3">
                                 <figure className="rounded-md bg-gradient-to-b from-[#9E7A5F] to-[#563F2E] p-2 transition-all duration-700 hover:scale-[1.1]">
-                                    <Link href="" target="_blank">
+                                    <Link href="https://wa.me/5571997079191" target="_blank">
                                     <MessageCircleIcon className="text-white" size={24} />
                                     </Link>
                                 </figure>
@@ -33,7 +33,7 @@ export function HomeContact() {
                                  <h1 className="text-xl font-primary text-center lg:text-start">{item.title}</h1>
                                  <p className="font-light max-w-[300px] text-center lg:text-start">{item.description_two}</p>
                                  <Button className="font-primary font-normal">
-                                    <Link href="" target="_blank">
+                                    <Link href="https://wa.me/5571997079191" target="_blank">
                                      {item.btnText}
                                     </Link>
                                  </Button>

@@ -19,7 +19,7 @@ export function HomeAboutMe() {
                             <div className="w-1/5 border-3 border-[#9E7A5F] mb-3 mt-3 rounded-full" />
                             <p className="text-gray-500 max-w-[403px] text-sm lg:text-base">{item.description}</p>
                             <Button className="font-primary font-normal p-6">
-                                <Link href="" target="_blank">
+                                <Link href="#contact">
                                 {item.btnText}
                                 </Link>
                             </Button>
