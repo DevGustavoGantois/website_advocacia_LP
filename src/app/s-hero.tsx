@@ -30,7 +30,7 @@ export function HomeHero() {
                 <h4 className="font-primary bg-clip-text text-transparent bg-gradient-to-r from-[#F1D67D] to-[#D18400] text-sm text-center lg:text-start lg:text-base">
                   {item.pretitle}
                 </h4>
-                <h1 className="text-white text-4xl lg:text-6xl max-w-[500px] md:max-w-[830px] text-center lg:text-start font-primary">
+                <h1 className="text-white text-[32px] lg:text-6xl p-8 lg:p-0 max-w-[550px] md:max-w-[830px] text-center lg:text-start font-primary">
                   {item.title}
                 </h1>
                 <p className="text-gray-400 max-w-[656px] text-center lg:text-start">
