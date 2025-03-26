@@ -34,7 +34,7 @@ export function HomeFAQ() {
                         </article>
                         <figure className="mt-10 lg:mt-32 w-full max-w-[500px]">
                             <div className="relative p-6 pt-32 pb-32 bg-gradient-to-b from-[#9E7A5F] to-[#563F2E] rounded-md" data-aos="fade-down">
-                                <ul className="flex flex-col items-center gap-10 lg:items-start">
+                                <ul className="flex flex-col items-center justify-center gap-10 lg:items-start">
                                     <div className="flex flex-col lg:flex-row justify-center items-center gap-6 z-50">
                                         <Scale size={32} className="text-white" />
                                         <p className="text-white text-center lg:text-start text-sm lg:text-base max-w-[300px]">
