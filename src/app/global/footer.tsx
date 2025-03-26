@@ -13,18 +13,18 @@ export function Footer() {
                     <h1 className="text-white font-primary text-4xl">Fale Comigo</h1>
                     <ul className="mt-4 flex items-center lg:items-start flex-col gap-4">
                         <li className="text-white transition-all text-sm lg:text-base duration-700 hover:-translate-y-2">
-                            <Link href="" target="_blank">
-                            Email: CamilaOliveira@gmail.com
+                            <a href="mailto:milaoliver.adv@gmail.com" target="_blank">
+                            Email: milaoliver.adv@gmail.com
+                            </a>
+                        </li>
+                        <li className="text-white transition-all text-sm lg:text-base duration-700 hover:-translate-y-2">
+                            <Link href="https://wa.me/5571997079191" target="_blank">
+                            Telefone: +55 (71)99707-9191
                             </Link>
                         </li>
                         <li className="text-white transition-all text-sm lg:text-base duration-700 hover:-translate-y-2">
-                            <Link href="" target="_blank">
-                            Telefone: +55 71 8367-1184
-                            </Link>
-                        </li>
-                        <li className="text-white transition-all text-sm lg:text-base duration-700 hover:-translate-y-2">
-                            <Link href="" target="_blank">
-                            Instagram: miila_oliver
+                            <Link href="https://www.instagram.com/adv_milaoliver/" target="_blank">
+                            Instagram: @adv_milaoliver
                             </Link>
                         </li>
                     </ul>
