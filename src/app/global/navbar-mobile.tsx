@@ -6,8 +6,8 @@ import { DialogTitle } from "@radix-ui/react-dialog";
 
 export function NavbarMobile() {
     return (
-        <nav className="z-50 fixed top-0 left-0 w-full">
-            <div className="flex items-center justify-between px-4 py-6 backdrop-blur-3xl border-b border-white/20">
+        <nav className="z-50 fixed right-0 top-0 left-0 w-full">
+            <div className="px-4 py-5 backdrop-blur-3xl border-b border-white/20">
                 <Sheet>
                     <SheetTrigger>
                         <Menu className="text-[#9E7A5F] cursor-pointer" size={30} />

@@ -21,7 +21,7 @@ export function HomeServices() {
         </div>
       )}
       <div className="max-w-[1440px] mx-auto p-8 lg:p-0">
-      <div className="relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-8" data-aos="flip-up">
+      <div className="relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-8" data-aos="fade-down">
         {servicesData.filter(item => item.title).map((item, index) => (
           <div
             key={index}
