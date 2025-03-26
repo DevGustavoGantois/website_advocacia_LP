@@ -22,7 +22,7 @@ export function Navbar() {
                         </Link>
                     </li>
                     <li className="text-white transition-all duration-500 hover:border-b-3 hover:border-white hover:scale-[1.1] mb-2">
-                        <Link href="#atuation">
+                        <Link href="#services">
                         Áreas de atuação
                         </Link>
                     </li>
