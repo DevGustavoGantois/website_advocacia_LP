@@ -56,12 +56,12 @@ export function HomeFAQ() {
                                     <div className="flex flex-col lg:flex-row justify-center items-center gap-6 z-50">
                                         <FileSignature size={32} className="text-white" />
                                         <p className="text-white text-center lg:text-start text-sm lg:text-base max-w-[300px]">
-                                            Contamos com advogados experientes em direito civil, trabalhista, empresarial, previdenciário e muito mais...
+                                            Contamos com advogados experientes em direito civil, direito do consumidor, direito criminal e muito mais...
                                         </p>
                                     </div>
                                 </ul>
                                 <div className="absolute inset-0 w-full h-full">
-                                    <Image className="w-full h-full object-cover" src="/ImgFAQ.svg" width={800} height={800} alt="" /> {/* Ajustei para `object-cover` */}
+                                    <Image className="w-full h-full object-cover" src="/ImgFAQ.svg" width={800} height={800} alt="" /> 
                                 </div>
                             </div>
                         </figure>

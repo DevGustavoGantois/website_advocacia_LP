@@ -1,6 +1,6 @@
 export const heroData = [
     {
-        pretitle: "Sua Parceira Legal de Confiança",
+        pretitle: "Sua aliada jurídica de confiança",
         title: "Defendemos seus direitos com compromisso e excelência",
         description: "Especialistas em soluções jurídicas personalizadas, comprometidos com sua confiança e segurança em cada etapa do processo.",
         btnText: "Saiba mais",
@@ -13,7 +13,7 @@ export const aboutMeData = [
         img: "/ImgAboutMe.svg",
         pretitle: "Sobre mim",
         title: "Advogada comprometida com a justiça e com o sucesso do seu caso",
-        description: "Ofereço assessoria jurídica especializada, com ética, transparência e dedicação para proteger seus direitos e alcançar as melhores soluções para o seu caso.",
+        description: "Sou advogada especializada em Direito Criminal, Civil e do Consumidor. Atuo com foco na solução eficiente das demandas dos meus clientes. Apaixonada por viagens, séries, estudos e momentos em família, acredito no equilíbrio entre vida profissional e pessoal...",
         btnText: "Fale comigo!"
     },
 ];
@@ -24,7 +24,7 @@ export const servicesData = [
     },
     {
         title: "Consumidor",
-        description: "Prestamos consultoria e representação em questões trabalhistas, defendendo os direitos de empregados e empregadores em casos de rescisões, acordos, ações indenizatórias e outros conflitos no ambiente de trabalho.",
+        description: "Protegemos seus direitos contra práticas abusivas, garantindo justiça em casos de fraudes, cobranças indevidas, contratos desleais e muito mais. Conte com expertise e comprometimento para fazer valer seus direitos!",
     },
     {
         title: "Família",
