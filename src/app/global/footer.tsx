@@ -13,7 +13,7 @@ export function Footer() {
                     <h1 className="text-white font-primary text-4xl">Fale Comigo</h1>
                     <ul className="mt-4 flex items-center lg:items-start flex-col gap-4">
                         <li className="text-white transition-all text-sm lg:text-base duration-700 hover:-translate-y-2">
-                            <a href="mailto:milaoliver.adv@gmail.com" target="_blank">
+                            <a href="mailto:milaoliver.adv@gmail.com">
                             Email: milaoliver.adv@gmail.com
                             </a>
                         </li>
