@@ -2,7 +2,7 @@ export const heroData = [
     {
         pretitle: "Sua aliada jurídica de confiança",
         title: "Defendemos seus direitos com compromisso e excelência",
-        description: "Especialistas em soluções jurídicas personalizadas, comprometidos com sua confiança e segurança em cada etapa do processo.",
+        description: "Especialista em soluções jurídicas personalizadas, comprometida com sua confiança e segurança em cada etapa do processo.",
         btnText: "Saiba mais",
 
     },
