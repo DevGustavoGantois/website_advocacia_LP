@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export function HomeContact() {
     return (
-        <section id="contact" className="max-w-[1440px] mx-auto p-8 lg:p-0 mt-20 lg:mt-40 overflow-x-hidden">
+        <section id="contact" className="max-w-[1440px] mx-auto p-8 lg:p-0 mt-20 lg:mt-40 overflow-hidden">
             {contactData.map((item, index) => {
                 return (
                     <div key={index}>
