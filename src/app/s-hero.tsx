@@ -27,7 +27,7 @@ export function HomeHero() {
           return (
             <div key={index} className="p-4 md:p-12">
               <article className="flex flex-col gap-2 items-center justify-center lg:items-start">
-                <h4 className="font-primary bg-clip-text text-transparent bg-gradient-to-r from-[#F1D67D] to-[#D18400] text-sm text-center lg:text-start lg:text-base">
+                <h4 className="font-primary bg-clip-text text-transparent bg-gradient-to-r from-[#F1D67D] to-[#D18400] text-sm text-center lg:text-start lg:text-base mt-16 xl:mt-0">
                   {item.pretitle}
                 </h4>
                 <h1 className="text-white text-[32px] lg:text-6xl p-2 lg:p-0 max-w-[550px] md:max-w-[830px] text-center lg:text-start font-primary">
