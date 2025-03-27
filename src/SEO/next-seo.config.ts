@@ -6,13 +6,13 @@ export const metadata: Metadata = {
       'Camila Oliveira oferece assessoria jurídica de excelência, com soluções personalizadas e estratégicas nas áreas de direito civil, trabalhista, empresarial e mais. Atendimento especializado para cada cliente, com foco em resultados efetivos e éticos.',
     openGraph: {
       type: 'website',
-      url: 'https://www.camilaadv.com.br/',
+      url: 'https://www.camilaadvocacia.com.br/',
       title: 'Camila Oliveira | Advocacia Especializada',
       description:
         'Camila Oliveira oferece assessoria jurídica de excelência, com soluções personalizadas e estratégicas nas áreas de direito civil, trabalhista, empresarial e mais. Atendimento especializado para cada cliente, com foco em resultados efetivos e éticos.',
       images: [
         {
-          url: 'https://www.camilaadv.com.br/LogoPrimary.svg',
+          url: 'https://www.camilaadvocacia.com.br/LogoPrimary.svg',
           width: 1200,
           height: 630,
           alt: 'Logo Camila Oliveira Advocacia',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       title: 'Camila Oliveira | Advocacia Especializada',
       description:
         'Assessoria jurídica especializada em diversas áreas do direito, com soluções estratégicas e personalizadas para cada cliente, visando sempre resultados justos e eficazes.',
-      images: ['https://www.camilaadv.com.br/LogoPrimary.svg'],
+      images: ['https://www.camilaadvocacia.com.br/LogoPrimary.svg'],
     },
     robots: {
       index: true,
