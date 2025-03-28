@@ -28,6 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+      <meta name="google-site-verification" content="jqpzsiIFqSK1AMJwyWUX6H2Y20i5u2oTwG5jFmIDUXY" />
+      </head>
       <body
         className={`${montserrat.variable} ${playFairDisplay.variable} antialiased bg-gradient-to-r from-[#F5F5F5] to-[#F2EEEB]`}
       >
